@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <div class="main">
+        <div class="colorOpacity"></div>
+        <div class="box">
+            <div class="boxLeft">
+                <img src="img/envelope.png" alt="">
+            </div>
+            <div class="boxRight">
+                <div class="heading">
+                    <h2>Get In Touch With Us</h2>
+                </div>
+                <div class="form">
+                    <span>
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Name" id="name">
+                    </span>
+                    <span>
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" placeholder="Email" id="email">
+                    </span>
+                    <div class="messageBox">
+                        <textarea id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                    </div>
+                    <div class="btn">
+                        <button onclick="validate()">Send Message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/18e896fd73.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

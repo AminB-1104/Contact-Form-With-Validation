@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.colorOpacity{
+    background: #846add;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.85;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 70vw;
+    min-height: 70vh;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxLeft{
+    width: 50%;
+    height: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxLeft img{
+    width: 370px;
+}
+
+.boxRight{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading{
+    margin-bottom: 18px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.2px;
+    width: 50%;
+}
+
+
+.form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form span{
+    display: flex;
+    align-items: center;
+}
+
+.form input{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    margin: 10px 5px;
+    padding: 10px 15px;
+    border-radius: 30px;
+    background-color: rgb(235, 235, 235);
+    font-weight: bold;
+}
+
+.messageBox{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.messageBox textarea{
+    resize: vertical;
+    width: 92%;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(235, 235, 235);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 100%;
+    font-size: 15px;
+    padding: 10px 70px;
+    border: none;
+    border-radius: 30px;
+    background-color: #846add;
+    color: white;
+    transition: all 0.4s;
+}
+
+.btn button:hover{
+    cursor: pointer;
+    background-color: #333;
+}
